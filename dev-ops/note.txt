@@ -1,0 +1,12 @@
+* URL env:
+
+* Swagger:
+	https://lms-api.developteam.net/swagger-ui.html
+
+* Mysql: 
+
+CREATE DATABASE lv_lms CHARACTER SET utf8;
+CREATE USER 'lv_lms_user' IDENTIFIED BY 'lv_lms_user@123';
+CREATE USER 'lv_lms_user'@'localhost' IDENTIFIED BY 'lv_lms_user@123';
+GRANT ALL PRIVILEGES ON lv_lms.* TO 'lv_lms_user';
+FLUSH PRIVILEGES;
